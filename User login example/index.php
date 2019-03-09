@@ -24,7 +24,7 @@
             padding: 20px;
             margin: 10px auto;
             border: 4px solid #ddd;
-            background: #134;
+            background: brown;
         }
 
     </style>

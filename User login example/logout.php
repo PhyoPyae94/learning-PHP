@@ -1,6 +1,6 @@
-<?php
+<?php 
     session_start();
-    unset($_SESSION['auth']);
-    unset($_SESSION['username']);
-    header('location: index.php')
-?>
+    // unset($_SESSION['auth']);
+    // unset($_SESSION['id']);
+    session_destroy();
+    header('location: index.php');
